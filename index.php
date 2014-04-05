@@ -1,12 +1,12 @@
 <?php
-##############################################################
+###########################################################################################
 #	Project: MSiS
 #	Description: check if it is the Jewish Sabbath by user location (IP based)
 #	Author: Mordi Sacks
 #	Version: 1.0
 #	Created: 02/04/2014
 #	License: GPL
-##############################################################
+###########################################################################################
 
 function isSabbath(){
 	// get IP
@@ -72,7 +72,7 @@ function isSabbath(){
 		}
 	} else {
 		// server is down
-		echo "Server down";
+		return "Server down";
 	}
 }
 ?>
