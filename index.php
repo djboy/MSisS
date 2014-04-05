@@ -42,8 +42,8 @@ function isSabbath(){
 		if(date("D") == "Fri"){
 			// is Friday
 			// check if Sabbath started
-			// add precaution // no precaution actually added
-			$add_precaution = $data["sunset"] - (60*0);
+			// add precaution
+			$add_precaution = $data["sunset"] - (60*11);
 			if(date("U") > $add_precaution){
 				// is Sabbath
 				return true;
