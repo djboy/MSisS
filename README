@@ -1,0 +1,11 @@
+###########################################################################################
+#	Project: MSiS
+#	Description: check if it is the Jewish Sabbath by user location (IP based)
+#	Author: Mordi Sacks
+#	Version: 1.0
+#	Created: 02/04/2014
+#	License: GPL
+###########################################################################################
+
+simple php function to determine if it is the Jewish Sabath
+return true, fasle and "Server down" if ip-api.com is not available.
