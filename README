@@ -8,4 +8,4 @@
 ###########################################################################################
 
 simple php function to determine if it is the Jewish Sabath
-return true, fasle and "Server down" if ip-api.com is not available.
+returns true, fasle and "Server down" if ip-api.com is not available.
