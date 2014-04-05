@@ -43,6 +43,7 @@ function isSabbath(){
 			// is Friday
 			// check if Sabbath started
 			// add precaution
+			// (Jewish people usually accept Sabbath 10 minutes early, but since we cannot determine accurate location we add another minute)
 			$add_precaution = $data["sunset"] - (60*11);
 			if(date("U") > $add_precaution){
 				// is Sabbath
